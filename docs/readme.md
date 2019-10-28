@@ -1,4 +1,7 @@
-# Day 1 - Python (Thursday, 7 November)
+# Day 1 
+
+## Python (Thursday, 7 November)
+
 Day 1 is Introduction to Python and programming concepts
  and an intro to Pandas
 
@@ -18,7 +21,11 @@ Pandas, which is useful for data wrangling
  - “Everyone else’s data is always messy and in the wrong format”
 
 
-# Day 2 - Data handling and analysis ( Thursday, 14 November)
+# Day 2 
+
+## Data handling and analysis ( Thursday, 14 November)
+
+
 Day 2 will focus on Pandas and data handling, especially
  spreadsheets as well as using and creating databases
 
@@ -49,7 +56,9 @@ SQL libraries
 
 Requests
 
-# Day 3 - Natural Language Processing ( Thursday, 21 November)
+# Day 3
+## Natural Language Processing ( Thursday, 21 November)
+
 Day 3 will be text processing with an emphasis on
  web scraping and data mining using Python.
 
@@ -83,7 +92,9 @@ Textual analyses eg. annual reports/audit
 
 Natural Language Processing decomposition
 
-# Day 4 - Machine Learning ( Thursday, 28 November)
+# Day 4 
+## Machine Learning ( Thursday, 28 November)
+
 Day 4  Will focus on Using ML with text data as well
  as a deeper understanding of ML
 
