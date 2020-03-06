@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Heatlamp - Blog</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Heatlamp </a></h1>
+                <nav><ul>
+                    <li><a href="/category/about.html">About</a></li>
+                    <li class="active"><a href="/category/blog.html">Blog</a></li>
+                    <li><a href="/category/day-1.html">Day 1</a></li>
+                    <li><a href="/category/day-2.html">Day 2</a></li>
+                    <li><a href="/category/day-3.html">Day 3</a></li>
+                    <li><a href="/category/day-4.html">Day 4</a></li>
+                    <li><a href="/category/resources.html">Resources</a></li>
+                    <li><a href="/category/setup.html">Setup</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/aiot-on-the-edge.html">AIoT on the edge</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-11-02T00:00:00+11:00">
+                Published: Sat 02 November 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/alistair-walsh.html">Alistair Walsh</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info --><p>I spotted a nifty little board on Adafruit that promises facial recognition on chip! As it was $24.95 I added it to another order and now I have it in my hot little hands and want to do something with it.</p>
+<p><a href="https://www.adafruit.com/product/4095"><img src="/images/esp_eye.jpg" width="600"></a></p>
+<p>I find this a fascinating development in AI and ML. If you've ever tried facial recognition with neural networks, a thumb sized board that does it without sending data to be processed elsewhere is a bit mind blowing.</p>
+<p>Anyway, it's arrived so I best get something going to try it out!</p>
+<h3>Tutorials</h3>
+<p>I found some tutorials</p>
+<p><a href="https://makeradvisor.com/esp-eye-new-esp32-based-board/">Maker-advisor</a></p>
+<p><a href="/pdfs/espressif_esp-who">esp-who getting started</a></p>
+<h1>ESP-EYE Getting Started Guide</h1>
+<p><a href="../../zh_CN/get-started/ESP-EYE_Getting_Started_Guide.md">[中文]</a></p>
+<h2>What You Need</h2>
+<ul>
+<li>1 × ESP-EYE V2.1 board</li>
+<li>1 × Micro USB cable</li>
+<li>1 × PC with Windows, Linux or Mac OS</li>
+</ul>
+<h2>Overview</h2>
+<p>ESP-EYE is an ESP32-based development board that integrates a digital microphone, an 8 MB PSRAM and a 4 MB flash, while also providing an external 2-Megapixel camera. These features make the board ideal for applications relating to face detection, face recognition and speech recognition. Besides, the board can also support image transmission over Wi-Fi and debugging through a Micro USB port, which enables the development of advanced AI solutions.</p>
+<h2>Hardware Preparation</h2>
+<p>The list and figure below describe the key components, interfaces and functions of the ESP-EYE development board:</p>
+<p><img alt="ESP-EYE image" src="/images/esp-eye_callout.png"></p>
+<ul>
+<li>
+<p><strong>3D_PIFA Antenna</strong></p>
+<p>A 3D PIFA antenna. With the R14 resistor users can select the external IPEX antenna, whereas with the R15 resistor they can select the 3D antenna.</p>
+</li>
+<li>
+<p><strong>IPEX Connector</strong></p>
+<p>Used for connecting the external IPEX antenna. With the R14 resistor users can select the external IPEX antenna, whereas with the R15 resistor they can select the 3D antenna.</p>
+</li>
+<li>
+<p><strong>ESP32 Chip</strong></p>
+<p>A 2.4 GHz Wi-Fi and Bluetooth combo chip.</p>
+</li>
+<li>
+<p><strong>Crystal Oscillator</strong></p>
+<p>Provides an external clock to ESP32.</p>
+</li>
+<li>
+<p><strong>Flash &amp; PSRAM</strong></p>
+<p>Provides memory for storing applications.</p>
+</li>
+<li>
+<p><strong>CP2102 USB-to-UART Chip</strong></p>
+<p>Converts the USB signals to UART signals.</p>
+</li>
+<li>
+<p><strong>USB Port</strong></p>
+<p>Provides power supply to the whole system.</p>
+</li>
+<li>
+<p><strong>LDO Power Supply</strong></p>
+<p>Provides the required power supply to the ESP32 chip, camera and LED indicators.</p>
+</li>
+<li>
+<p><strong>Side Tactile Button</strong></p>
+<p>A function key.</p>
+</li>
+<li>
+<p><strong>Top Tactile Button</strong></p>
+<p>Reset/Boot button. We recommend that you do not configure this button for other uses.</p>
+</li>
+<li>
+<p><strong>LED Indicators</strong></p>
+<p>The board has a red and a white indicator. Different flashing combinations of the red and white indicators reflect the different statuses of the board, e.g. waking up, networking, face detection, face recognition, face enrollment and face recognition.</p>
+</li>
+<li>
+<p><strong>Camera</strong></p>
+<p>An external 2-Megapixel camera module for face detection, face recognition and Face ID enrollment.</p>
+</li>
+<li>
+<p><strong>Camera Connector</strong></p>
+<p>Used for connecting the external camera.</p>
+</li>
+<li>
+<p><strong>MIC</strong></p>
+<p>A digital microphone for voice control functions.</p>
+</li>
+<li>
+<p><strong>SPI Port</strong></p>
+<p>A reserved port for data transmission.</p>
+</li>
+</ul>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://www.anaconda.com/distribution/">Anaconda</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://twitter.com/LampHeat">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/HeatLamporg-661010684359352">Facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
